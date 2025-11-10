@@ -22,7 +22,7 @@ jobs:
         run: pip install beautifulsoup4 requests
 
       - name: Run PhysioNet fetch script
-        run: python scripts/fetch_physionet.py
+        run: python fetch_physionet.py
 
       - name: Commit CSV if changed
         run: |
